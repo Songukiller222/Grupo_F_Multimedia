@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: ;
+	text-decoration: none;
+}
+
+/*Barra menu*/
+
+.container_menu{ /*Settings del contenedor*/
+	width: 100%;
+	height: 56px;
+	background: #330434;
+	padding: 0px 10px;
+}
+
+.menu{ /*Settings del menu*/
+	max-width: 100%;
+	margin: auto;
+	height: 100%;
+}
+nav{ /*Setting del nav*/
+	height: 100%;
+}
+nav > ul{/*Settings de la ul que está en nav*/
+	height: 100%;
+	display: flex;
+}
+
+nav > ul > li{ /*Settings del li que esta en la ul del nav*/
+	height: 100%;
+	list-style: none;
+	position: relative; /*asi se relaciona al submenu*/
+
+}
+
+nav >ul > li:first-child > a{ /*Settings del a del primer li de ul del nav*/
+	background-image: url(../Imagenes/menu.png);
+	background-size: 24px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 20px 40px;
+
+}
+
+nav >ul > li:first-child:hover > a{ /*Settings del pop-up del primer li en el ul del nav*/
+	background-image: url(../Imagenes/menu.png);
+	background-size: 24px;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+nav > ul > li > a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 14px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: all 300ms ease;
+} 
+nav > ul > li > a:hover{
+	transform: scale(1.1);
+	background: #330433;
+	box-shadow: 0px 0px 10px/*expansion*/ 0px /*Grosor*/ rgba(0, 0, 0, 0.5);
+}
+
+/*Submenu*/
+
+nav ul li ul{
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	background-color: #330433;
+	box-shadow:0px 0px 10px/*expansion*/ 0px /*Grosor*/ rgba(0, 0, 0, 0.5) ;
+	position: absolute;
+	top: 75px;
+	left: -5px;
+	padding: 14px 0px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 10;
+}
+nav ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+	top: 70px;
+	transition:all 300ms ease;
+}
+nav ul li ul:before{
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 12px solid #330433;
+	position: absolute;
+	top: -10px;
+	left: 20px;
+}
+nav  ul  li  ul  a{
+	text-transform: uppercase;
+	color: white;
+}

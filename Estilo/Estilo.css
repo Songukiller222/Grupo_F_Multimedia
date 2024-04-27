@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 	font-family: ;
 	text-decoration: none;
+	list-style: none;
+
 }
 .rubik-glitch-regular {
   font-family: "Rubik Glitch", system-ui;
@@ -147,7 +149,7 @@ h1{
 }
 main{
 
-	padding: 56px 50px;
+	padding: 56px 200px;
 	text-align: center;
 	background-color: #EECFC5;
 }
@@ -171,6 +173,12 @@ main{
 }
 .ejemplo{
 	image-resolution: ;
+}
+.iconos_equipo{
+	width: 100px;
+	height: auto;
+	vertical-align: middle;
+	margin-right: 10px;
 }
 .image_central{
 	width: 823px;

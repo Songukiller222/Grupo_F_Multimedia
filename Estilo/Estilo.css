@@ -65,7 +65,21 @@ nav >ul > li:first-child:hover > a{ /*Settings del pop-up del primer li en el ul
 	background-position: center center;
 
 }
+nav >ul > li:nth-child(2)> a{
+	background-image: url(../Imagenes/chink_nombre_sin_fondo.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 10px 10px;
+}
+nav >ul > li:nth-child(2):hover> a{
+	background-image: url(../Imagenes/chink_nombre_sin_fondo.png);
+	text-align: center center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
 
+}
 nav > ul > li > a{
 
 	width: 100%;
@@ -152,6 +166,7 @@ main{
 	padding: 56px 200px;
 	text-align: center;
 	background-color: #EECFC5;
+	font-size: 20px;
 }
 #inicio{
 	
@@ -182,9 +197,9 @@ main{
 }
 .image_central{
 	width: 823px;
-	height: 466px;
-	background-image: url(".../Imagenes/Ejemplo.png");
-	text-align: bottom-left;
+	height: auto;
+	text-align: middle;
+	margin-right: 10px;
 }
 @media screen and (max-width: 720px){
 	

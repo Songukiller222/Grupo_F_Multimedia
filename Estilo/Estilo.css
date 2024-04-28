@@ -24,6 +24,9 @@ z-index: 100;
 	height: 56px;
 	background: #330434;
 	padding: 0px 10px;
+	/*background-image: url(../Imagenes/cabecera1.jpg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;*/
 }
 
 .menu{ /*Settings del menu*/
@@ -165,11 +168,11 @@ main{
 
 	padding: 56px 200px;
 	text-align: center;
-	background-color: #EECFC5;
+	background-color: #FFBDAF;
 	font-size: 20px;
 }
-#inicio{
-	
+#inicio >p{
+	text-align: center;
 }
 #multimedia{
 	
@@ -186,20 +189,16 @@ main{
 #equipo{
 
 }
-.ejemplo{
-	image-resolution: ;
-}
 .iconos_equipo{
 	width: 100px;
 	height: auto;
 	vertical-align: middle;
 	margin-right: 10px;
 }
-.image_central{
-	width: 823px;
+.imagen_inicio{
+	width: 100%;
 	height: auto;
-	text-align: middle;
-	margin-right: 10px;
+	margin: 10px ;
 }
 @media screen and (max-width: 720px){
 	

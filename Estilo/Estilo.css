@@ -188,13 +188,19 @@ main{
 #contribuciones_objetivos{
 	
 }
-#equipo> ul>li{
+#equipo> ul .contenedor_ordenar>li{
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     justify-content: center;
 	align-content: center;
-	padding: 20px 40px;
+	padding: 30px 40px;
+}
+.contenedor_ordenar{
+	display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 .contenedor_equipo{
 	position: relative;

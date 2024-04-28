@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: ;
+	font-size: 25px;
 	text-decoration: none;
 	list-style: none;
 
@@ -173,6 +174,7 @@ main{
 }
 #inicio >p{
 	text-align: center;
+	font-size: 25px;
 }
 #multimedia{
 	
@@ -186,8 +188,23 @@ main{
 #contribuciones_objetivos{
 	
 }
-#equipo{
-
+#equipo> ul>li{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+	align-content: center;
+	padding: 20px 40px;
+}
+.contenedor_equipo{
+	position: relative;
+	width: 300px;
+}
+.pie_imagen{
+	position: absolute;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
 }
 .iconos_equipo{
 	width: 100px;

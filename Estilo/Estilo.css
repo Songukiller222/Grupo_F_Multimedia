@@ -156,7 +156,12 @@ nav  ul  li  ul  a:hover{
 }
 
 /*Articulos*/
-
+body{
+	background-color: #FFBDAF;
+}
+article{
+	padding-top:56px;
+}
 h1{
 	text-align: center;
 	font-size: 60px;
@@ -169,7 +174,7 @@ main{
 
 	padding: 56px 200px;
 	text-align: center;
-	background-color: #FFBDAF;
+	
 	font-size: 20px;
 }
 #inicio >p{
@@ -179,11 +184,61 @@ main{
 #multimedia{
 	
 }
+.contenedor_multimedia{
+	position: relative;
+	width: 100%;
+	align-content: center;
+	text-align: center;
+}
+.contenedor_multimedia img{
+	width: 50%;
+	height: auto;
+}
+.pie_imagen_multimedia{
+	position: relative;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: underline;
+}
 #historia{
 	
 }
+.imagen_historia{
+	display: contents;
+	width: 1213px;
+}
+.imagen_historia img{
+	width: 100%;
+	height: auto;
+	align-content: center;
+	text-align: center;
+}
 #mecanicas{
 
+}
+.contenedor_mecanicas{
+	position: relative;
+	width: 100%;
+	align-content: center;
+	text-align: center;
+}
+.contenedor_mecanicas > img{
+	width: 100%;
+	height: auto;
+}
+.pie_imagen_mecanicas{ 
+	position: relative;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: underline;
 }
 #contribuciones_objetivos{
 	
@@ -196,6 +251,7 @@ main{
 	align-content: center;
 	padding: 30px 40px;
 }
+
 .contenedor_ordenar{
 	display: flex;
     align-items: flex-start;
@@ -222,6 +278,44 @@ main{
 	width: 100%;
 	height: auto;
 	margin: 10px ;
+}
+/* Estructura para redes sociales */
+.redes_sociales{
+	height: 56px;
+	width: 100%;
+	border:1px solid #330434;
+	background-color: #330434;
+	align-content: center center;
+	display: inline-grid;
+	align-content: center;
+
+}
+.redes_sociales> ul{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+.redes_sociales> ul > li{
+	color: white;
+	height: 53px;
+	width: 56px;
+}
+#imagenes_redes{
+width: 53px;
+height: 53px;
+}
+.derechos_autor{
+	display: flex;
+	height: auto;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 10px;
+	text-decoration: none;
+	color: inherit;
+	text-decoration-color:black ;
 }
 @media screen and (max-width: 720px){
 	

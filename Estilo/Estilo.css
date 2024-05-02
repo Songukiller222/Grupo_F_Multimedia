@@ -157,10 +157,13 @@ nav  ul  li  ul  a:hover{
 
 /*Articulos*/
 body{
-	background-color: #FFBDAF;
+	background-image: url(../Imagenes/7.png);
+	background-attachment: fixed;
+	background-size: cover;
 }
 article{
 	padding-top:56px;
+	background-color: #FFBDAF;
 }
 h1{
 	text-align: center;
@@ -177,12 +180,16 @@ main{
 	
 	font-size: 20px;
 }
+#inicio> h2{
+	padding: 20px 20px;
+}
 #inicio >p{
 	text-align: center;
 	font-size: 25px;
+	/*padding: 20px 20px;*/
 }
 #multimedia{
-	
+
 }
 .contenedor_multimedia{
 	position: relative;
@@ -212,7 +219,8 @@ main{
 	width: 1213px;
 }
 .imagen_historia img{
-	width: 100%;
+	padding-top: 50px;
+	width: 75%;
 	height: auto;
 	align-content: center;
 	text-align: center;
@@ -227,7 +235,7 @@ main{
 	text-align: center;
 }
 .contenedor_mecanicas > img{
-	width: 100%;
+	width: 75%;
 	height: auto;
 }
 .pie_imagen_mecanicas{ 
@@ -277,7 +285,7 @@ main{
 .imagen_inicio{
 	width: 100%;
 	height: auto;
-	margin: 10px ;
+
 }
 /* Estructura para redes sociales */
 .redes_sociales{

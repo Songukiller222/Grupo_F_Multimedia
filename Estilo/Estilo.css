@@ -186,10 +186,15 @@ main{
 #inicio >p{
 	text-align: center;
 	font-size: 25px;
-	/*padding: 20px 20px;*/
+	padding: 20px 20px;
 }
 #multimedia{
 
+}
+.compañía{
+	height: 100px;
+	width: auto;
+	vertical-align: middle;
 }
 .contenedor_multimedia{
 	position: relative;
@@ -197,8 +202,17 @@ main{
 	align-content: center;
 	text-align: center;
 }
+.contenedor_multimedia_imagen{
+	position: relative;
+	width: inherit;
+	height: inherit;
+}
+.contenedor_multimedia_imagen img{
+	width: 20%;
+	height: auto;
+}
 .contenedor_multimedia img{
-	width: 50%;
+	width: 20%;
 	height: auto;
 }
 .pie_imagen_multimedia{
@@ -291,8 +305,8 @@ main{
 .redes_sociales{
 	height: 56px;
 	width: 100%;
-	border:1px solid #330434;
-	background-color: #330434;
+	border:1px solid #330433;
+	background-color: #330433;
 	align-content: center center;
 	display: inline-grid;
 	align-content: center;
@@ -313,17 +327,6 @@ main{
 #imagenes_redes{
 width: 53px;
 height: 53px;
-}
-.derechos_autor{
-	display: flex;
-	height: auto;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	font-size: 10px;
-	text-decoration: none;
-	color: inherit;
-	text-decoration-color:black ;
 }
 @media screen and (max-width: 720px){
 	

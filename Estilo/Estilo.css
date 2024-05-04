@@ -1,11 +1,8 @@
-
-
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family:"Chinkfont-Regular.ttf";
-	font-size: 25px;
 	text-decoration: none;
 	list-style: none;
 }
@@ -73,6 +70,21 @@ nav >ul > li:nth-child(2):hover> a{
 	background-image: url(../Imagenes/chink_nombre_sin_fondo.png);
 	text-align: center center;
 	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+nav >ul > li:nth-child(3)> a{
+	background-image: url(../Fenguins_logo/fenguins_name.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 10px 10px;
+}
+nav >ul > li:nth-child(3):hover> a{
+	background-image: url(../Fenguins_logo/fenguins_name.png);
+	text-align: center center;
+	background-size: 40%;
 	background-repeat: no-repeat;
 	background-position: center center;
 
@@ -168,15 +180,14 @@ h1{
 }
 main{
 
-	padding: 56px 200px;
+	padding: 56px 10%;
 	text-align: center;
-	
 	font-size: 20px;
 }
-#inicio> h2{
+h2{
 	padding: 20px 20px;
 }
-#inicio >p{
+p{
 	text-align: center;
 	font-size: 25px;
 	padding: 20px 20px;
@@ -190,36 +201,45 @@ main{
 	vertical-align: middle;
 }
 .contenedor_multimedia{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	width: 100%;
 	align-content: center;
 	text-align: center;
 }
 .contenedor_multimedia_imagen{
+	display: flex;
+
 	position: relative;
 	width: inherit;
 	height: inherit;
 }
-.contenedor_multimedia_imagen img{
-	width: 20%;
-	height: auto;
-}
 .contenedor_multimedia img{
-	width: 20%;
+	width: 50%;
 	height: auto;
 }
-.pie_imagen_multimedia{
+
+/*.pie_imagen_multimedia{
 	position: relative;
-    width: 100%;
+    width: auto;
     padding-top: 1px;
     padding-bottom: 30px;
     box-sizing: border-box;
     font-size: 20px;
     font-style: oblique;
     text-decoration: underline;
+}*/
+figure{
+	display: block;
+	margin: 0;
+	padding: 0;
 }
-#historia{
-	
+figcapion{
+	margin-top: 10px;
+	background-color: #f1f;
+	padding: 5px;
 }
 .imagen_historia{
 	display: contents;
@@ -232,8 +252,18 @@ main{
 	align-content: center;
 	text-align: center;
 }
-#mecanicas{
-
+.responsive-iframe {
+	display: flex;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Proporción de aspecto 16:9, ajusta esto según tu necesidad */
+    position: relative;
+}
+.responsive-iframe iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 .contenedor_mecanicas{
 	position: relative;
@@ -255,8 +285,25 @@ main{
     font-style: oblique;
     text-decoration: underline;
 }
-#contribuciones_objetivos{
-	
+.distribución_bloques{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 20px 40px;
+}
+.distribución_bloques > li{
+	padding: 20px 40px;
+}
+.bloque{
+	border: 1px solid #330433;
+	display: flex;
+	padding: 0px 5px;
+}
+.bloque > p , h3{
+	justify-content: center;
+	align-content: center;
+
 }
 #equipo> ul .contenedor_ordenar>li{
     display: flex;
@@ -321,6 +368,20 @@ main{
 width: 53px;
 height: 53px;
 }
-@media screen and (max-width: 720px){
-	
+@media screen and (max-width: 425px){
+	.{
+		font-size: 10px;
+	}
+header{
+	position: fixed;
+}
+nav > ul > l1> a:hover{
+	transform: scale(1);
+}
+nav ul li ul{
+	left: 90px;
+}
+h1{
+	font-size:40px;
+}
 }

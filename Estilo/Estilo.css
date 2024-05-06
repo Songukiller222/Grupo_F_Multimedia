@@ -159,13 +159,36 @@ nav  ul  li  ul  a:hover{
 	font-size: 14px;
 	box-shadow:0px 0px 10px/*expansion*/ 0px /*Grosor*/ rgba(0, 0, 0, 0.5) ;
 }
-
-/*Articulos*/
+/* Fondo de la página web */
 body{
 	background-image: url(../Imagenes/7.png);
 	background-attachment: fixed;
 	background-size: cover;
+	align-content: space-around;
 }
+.margenes_izquierdos{
+	background-image: url(../Márgenes_llaves/llave_1.png);
+	background-size: 10%;
+	height: 100%;
+	width: 100%;
+	background-position-x: left;
+	background-repeat: repeat-y;
+	position: fixed;
+	margin-top: 56px;
+}
+.margenes_derechos{
+	background-image: url(../Márgenes_llaves/llave_2.png);
+	background-size: 10%;
+	position: fixed;
+	background-repeat: repeat-y;
+	background-position-x: right;
+	width: 100%;
+	height: 100%;
+	margin-top: 56px;
+	
+}
+/*Articulos*/
+
 article{
 	padding-top:56px;
 	background-color: #FFBDAF;
@@ -372,8 +395,8 @@ height: 53px;
 }
 /*FAQ*/
 
-/* Apartado recursivo (se hace a partir de 1300px porque el el apartado de equipos empieza a salirse de los margenes del main) */
-@media screen and (max-width: 1300px){
+/* Apartado recursivo (se hace a partir de 1350px porque en el apartado de equipos empieza a salirse de los margenes del main) */
+@media screen and (max-width: 1350px){
 	.{
 		font-size: 10px;
 	}
@@ -396,7 +419,7 @@ height: 53px;
 		background-size:60%;
 	}
 	h1{
-		font-size:120%;
+		font-size:100%;
 	}
 	li{
 		flex-direction: column;
@@ -405,6 +428,9 @@ height: 53px;
 		flex-direction: column;
 	}
 	.bloque{
-		width:120%
+		width:120%;
+	}
+	.bloque p, h3{
+		font-size: 100%;
 	}
 }

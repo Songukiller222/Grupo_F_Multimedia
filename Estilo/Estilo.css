@@ -291,8 +291,9 @@ figcapion{
 	align-content: center;
 	justify-content: center;
 	border: 1px solid #330433;
+	border-radius: 10px;
 	display: flex;
-	padding: 0px 5px;
+	padding: 5px 5px;
 	flex-direction: column;
 	align-items: center;
 }
@@ -300,6 +301,13 @@ figcapion{
 	justify-content: center;
 	align-content: center;
 
+}
+.boton{
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	background-color: #330433;
+	color: white;
 }
 #equipo> ul .contenedor_ordenar>li{
     display: flex;

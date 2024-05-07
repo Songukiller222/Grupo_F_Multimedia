@@ -168,9 +168,9 @@ body{
 }
 .margenes_izquierdos{
 	background-image: url(../Márgenes_llaves/llave_1.png);
-	background-size: 10%;
+	background-size: 100%;
 	height: 100%;
-	width: 100%;
+	width: 10%;
 	background-position-x: left;
 	background-repeat: repeat-y;
 	position: fixed;
@@ -178,11 +178,11 @@ body{
 }
 .margenes_derechos{
 	background-image: url(../Márgenes_llaves/llave_2.png);
-	background-size: 10%;
+	background-size: 100%;
 	position: fixed;
 	background-repeat: repeat-y;
-	background-position-x: right;
-	width: 100%;
+	right: 0;
+	width: 10%;
 	height: 100%;
 	margin-top: 56px;
 	

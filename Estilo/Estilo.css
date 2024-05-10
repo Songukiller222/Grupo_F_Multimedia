@@ -167,7 +167,7 @@ body{
 	align-content: space-around;
 }
 .margenes_izquierdos{
-	background-image: url(../Márgenes_llaves/llave_1.PNG);
+	background-image: url(../Márgenes_llaves/llave_1A.PNG);
 	background-size: 100%;
 	height: 100%;
 	width: 10%;
@@ -185,7 +185,7 @@ body{
 	width: 10%;
 	height: 100%;
 	margin-top: 56px;
-	
+	margin-bottom: 35px;
 }
 /*Articulos*/
 
@@ -368,11 +368,11 @@ figcapion{
 }
 /* Estructura para redes sociales */
 .redes_sociales{
-	height: 56px;
+	height: 60px;
 	width: 100%;
 	border:1px solid #330433;
 	background-color: #330433;
-	align-content: center center;
+	position: absolute;
 	display: inline-grid;
 	align-content: center;
 

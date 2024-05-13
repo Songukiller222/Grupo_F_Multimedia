@@ -44,7 +44,7 @@ nav > ul > li{ /*Settings del li que esta en la ul del nav*/
 
 nav >ul > li:first-child > a{ /*Settings del a del primer li de ul del nav*/
 	background-image: url(../Imagenes/menu.png);
-	background-size: 20%;
+	background-size: 15%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 10% 40px;
@@ -61,7 +61,7 @@ nav >ul > li:first-child:hover > a{ /*Settings del pop-up del primer li en el ul
 }
 nav >ul > li:nth-child(2)> a{
 	background-image: url(../Imagenes/chink_nombre_sin_fondo.png);
-	background-size: 80%;
+	background-size: 70%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 10px 10px;
@@ -195,7 +195,7 @@ article{
 }
 h1{
 	text-align: center;
-	font-size: 200%;
+	font-size: 170%;
 	font-size-adjust: 10px;
 	text-transform: uppercase;
 	font-family: "thick.ttf";
@@ -454,7 +454,7 @@ section {
 /* Apartado recursivo (se hace a partir de 1350px porque en el apartado de equipos empieza a salirse de los margenes del main) */
 @media screen and (max-width: 1350px){
 	*{
-		font-size: 10px;
+		font-size: 15px;
 	}
 	header{
 		position: fixed;
@@ -473,9 +473,6 @@ section {
 	}
 	nav >ul > li:nth-child(3)> a:hover{
 		background-size:60%;
-	}
-	h1{
-		font-size:100%;
 	}
 	li{
 		flex-direction: column;
